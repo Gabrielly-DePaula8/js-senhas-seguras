@@ -1,0 +1,20 @@
+@import url('https://fonts.google.com/');
+
+:root{
+    --branco: white;
+    --cor-de-fundo: #00162e;
+    --fundo-senha: #00244d;
+    --fundo-texto: #001e40;
+    --borda: #0015ff;
+    --roboto: 'Roboto', sans-serif;
+    --roboto-mono: 'Roboto mono', monospace;
+}
+
+.parametro-senha__botao{
+    background-color: var(--fundo-texto);
+    color: var(--branco);
+    border: 2px solid var(--borda);
+    padding: 24px;
+    font-size: 24px;
+    cursor: pointer;
+}
